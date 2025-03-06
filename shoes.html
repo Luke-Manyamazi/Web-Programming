@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Shoes</title>
+    <style>
+        body {
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .shoe {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 220px;
+            text-align: center;
+        }
+        img {
+            width: 200px;
+            height: 250px;
+            border-radius: 10px;
+        }
+        .shoe-details h2 {
+            color: #333;
+            font-size: 1.3em;
+        }
+        .shoe-details p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        .shoe-details button {
+            padding: 10px 20px;
+            background: #199248;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="shoe">
+            <img src="https://images.puma.com/image/upload/f_auto,q_auto,w_2000,b_rgb:FAFAFA/global/images/379786/02/sv02/fnd/ZAF/fmt/png" alt="Running Sneakers">
+            <div class="shoe-details">
+                <h2>Running Sneakers</h2>
+                <p>Brand: SportyFit</p>
+                <p>Price: $75</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="shoe">
+            <img src="https://xcdn.next.co.uk/COMMON/Items/Default/Default/ItemImages/AltItemShot/315x472/223530s3.jpg" alt="Leather Dress Shoes">
+            <div class="shoe-details">
+                <h2>Leather Dress Shoes</h2>
+                <p>Brand: ClassicWear</p>
+                <p>Price: $120</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="shoe">
+            <img src="https://www.moshulu.co.uk/images/mens-casual-leather-loafers-p3172-200140_image.jpg" alt="Casual Loafers">
+            <div class="shoe-details">
+                <h2>Casual Loafers</h2>
+                <p>Brand: UrbanTrend</p>
+                <p>Price: $60</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="shoe">
+            <img src="https://media.capeunionmart.co.za/i/capeunionmart/104830113_C15_2?$zoom$" alt="Hiking Boots">
+            <div class="shoe-details">
+                <h2>Hiking Boots</h2>
+                <p>Brand: AdventureGear</p>
+                <p>Price: $95</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

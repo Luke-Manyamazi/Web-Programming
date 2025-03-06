@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Books</title>
+    <style>
+        body {
+            background: #615f5f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .book {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 220px;
+            text-align: center;
+        }
+        img {
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        .book-details h2 {
+            color: #333;
+            font-size: 1.3em;
+        }
+        .book-details p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        .book-details button {
+            padding: 10px 20px;
+            background: #199248;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/71UfLO8-cqS._AC_UF1000,1000_QL80_.jpg" alt="Computer Organization and Design">
+            <div class="book-details">
+                <h2>Computer Organization and Design</h2>
+                <p>Author: David A. Patterson, John L. Hennessy</p>
+                <p>Publisher: Morgan Kaufmann</p>
+                <p>Price: $45</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="book">
+            <img src="https://i.ebayimg.com/images/g/cDoAAOSwzl1kdLhc/s-l400.jpg" alt="Digital Design and Computer Architecture">
+            <div class="book-details">
+                <h2>Digital Design and Computer Architecture</h2>
+                <p>Author: David Money Harris, Sarah L. Harris</p>
+                <p>Publisher: Morgan Kaufmann</p>
+                <p>Price: $50</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="book">
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1652868052i/61120526.jpg" alt="Modern Computer Architecture and Organization">
+            <div class="book-details">
+                <h2>Modern Computer Architecture and Organization</h2>
+                <p>Author: Jim Ledin</p>
+                <p>Publisher: Packt Publishing</p>
+                <p>Price: $40</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="book">
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1389926751i/280534.jpg" alt="Computer Engineering: Hardware Design">
+            <div class="book-details">
+                <h2>Computer Engineering: Hardware Design</h2>
+                <p>Author: M. Morris Mano</p>
+                <p>Publisher: Pearson</p>
+                <p>Price: $55</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!--Create a web page using frames which contains two columns. 
+The left frame contains five hyperlinks namely: books, pens, watches, bags and shoes. 
+When the user clicks on a link (for example books) in the left frame, 
+a webpage should load in the right frame which contains details about the items like book cover image, 
+book publisher name, book price and add to cart button for books category. 
+Initially, display a welcome page in the right frame-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frames</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+        }
+        .left-frame {
+            width: 20%;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        .right-frame {
+            flex-grow: 1;
+            border-left: 2px solid #ddd;
+        }
+        .left-frame a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            border: 1px #333;
+        }
+        .left-frame a:hover {
+            background: #199248;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-frame">
+        <a href="bags.html" target="content">Bags</a>
+        <a href="books.html" target="content">Books</a>
+        <a href="pens.html" target="content">Pens</a>
+        <a href="shoes.html" target="content">Shoes</a>
+        <a href="watches.html" target="content">Watches</a>
+    </div>
+    <iframe class="right-frame" name="content" src="welcome.html"></iframe>
+</body>
+</html>
