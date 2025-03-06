@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-size: large;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(241, 232, 220);
+    padding: 20px;
+}
+
+#table-header {
+    text-align: center;
+    padding: 10px;
+    background-color: #f11616;
+    color: white;
+}
+
+table {
+    border: 1px dashed grey;
+    width: 100%;
+    margin: auto; 
+}
+
+td {
+    padding: 10px;
+    border: 1px dashed grey;
+}
+
+#email-row {
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: block;
+    float: right;
+    margin-bottom: 50px;
+}
